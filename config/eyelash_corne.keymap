@@ -78,10 +78,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
-&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
-                                         &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &trans
+&kp TAB         &kp EXCL      &kp AT  &kp POUND     &kp DOLLAR    &kp PERCENT                                &mmv MOVE_UP                     &kp CARET      &kp AMPERSAND  &kp STAR        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
+&kp ESCAPE      &kp N1        &kp N2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS      &kp EQUAL      &kp BACKSLASH   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
+&kp LEFT_SHIFT  &kp NUMBER_6  &kp N7  &kp N8        &kp N9        &kp N0       &kp C_MUTE                    &mmv MOVE_DOWN                   &kp GRAVE      &kp PLUS       &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_SHIFT
+                                      &trans        &trans        &trans                                                                      &kp RIGHT_WIN  &kp DEL        &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_encoder>;
