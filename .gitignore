@@ -1,0 +1,7 @@
+build/
+zmk/
+modules/
+tools/
+.west/
+.vscode/
+.DS_Store
