@@ -38,9 +38,9 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            quick-tap-ms = <130>;
+            flavor = "balanced";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <170>;
             hold-trigger-on-release;
         };
     };
