@@ -49,7 +49,7 @@ layers:
   - SYMBOL
   - RIGHT WIN
   NUMBER:
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: LEFT WIN}
   - '!'
   - '@'
   - '#'
@@ -62,7 +62,7 @@ layers:
   - (
   - )
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - '3'
@@ -91,7 +91,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - '~'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - RIGHT WIN
