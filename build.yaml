@@ -1,4 +1,5 @@
 ---
+# Build for only keymap files
 include:
   - board: eyelash_corne_left
     shield: nice_view
