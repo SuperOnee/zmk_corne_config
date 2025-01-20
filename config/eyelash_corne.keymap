@@ -80,7 +80,7 @@
 &HMR LEFT_WIN TAB         &kp EXCL      &kp AT  &kp POUND     &kp DOLLAR    &kp PERCENT                                &mmv MOVE_UP                     &kp CARET      &kp AMPERSAND  &kp STAR        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
 &HMR LEFT_CONTROL ESCAPE  &kp N1        &kp N2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS      &kp EQUAL      &kp BACKSLASH   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
 &kp LEFT_SHIFT            &kp NUMBER_6  &kp N7  &kp N8        &kp N9        &kp N0       &kp C_MUTE                    &mmv MOVE_DOWN                   &kp GRAVE      &kp PLUS       &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE
-                                                &kp LEFT_ALT  &trans        &trans                                                                      &kp RIGHT_WIN  &kp DEL        &kp RIGHT_ALT
+                                                &kp LEFT_ALT  &trans        &kp SPACE                                                                   &kp RIGHT_WIN  &kp DEL        &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -91,7 +91,7 @@
             bindings = <
 &kp TAB         &kp F1        &kp F2        &kp F3                  &kp F4                   &kp F5                                                 &mmv MOVE_UP                     &kp F6              &kp F7    &kp F8        &kp F9                &kp F10        &kp BSPC
 &kp ESCAPE      &kp F11       &kp F12       &kp LG(LS(LEFT_BRACE))  &kp LG(LS(RIGHT_BRACE))  &trans                                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &HMR LS(LEFT) LEFT  &kp DOWN  &kp UP_ARROW  &HMR LS(RIGHT) RIGHT  &kp PAGE_UP    &kp CAPSLOCK
-&kp LEFT_SHIFT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2            &bt BT_SEL 3             &bt BT_SEL 4  &kp C_BRIGHTNESS_AUTO                    &mmv MOVE_DOWN                   &kp HOME            &kp END   &kp LG(Z)     &kp RG(RIGHT_ALT)     &kp PAGE_DOWN  &kp GLOBE
+&kp LEFT_SHIFT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2            &bt BT_SEL 3             &bt BT_SEL 4  &kp C_BRIGHTNESS_AUTO                    &mmv MOVE_DOWN                   &kp HOME            &kp END   &kp INS       &trans                &kp PAGE_DOWN  &trans
                                             &bt BT_CLR              &trans                   &kp LEFT_WIN                                                                            &kp RET             &trans    &trans
             >;
 
@@ -99,15 +99,13 @@
         };
 
         layer_3 {
-            display-name = "Fn";
+            display-name = "SHORTCUTS";
             bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                       &trans       &trans     &trans                                                                   &trans       &trans     &trans
+&kp LG(LA(ESCAPE))  &kp LS(LA(N1))  &kp LS(LA(N2))  &kp LS(LA(N3))  &trans          &kp LS(LG(T))                     &trans          &trans         &kp LG(Z)  &kp LS(LG(Z))  &trans         &trans  &trans
+&kp CAPSLOCK        &trans          &kp LS(LG(N2))  &kp LS(LG(N3))  &kp LS(LG(N4))  &kp LS(LG(N5))            &trans  &trans  &trans  &kp LA(MINUS)  &trans     &trans         &kp LA(EQUAL)  &trans  &trans
+&kp GLOBE           &sys_reset      &trans          &kp LG(C)       &kp LG(V)       &kp LS(LG(V))   &trans            &trans          &trans         &trans     &bootloader    &sys_reset     &trans  &trans
+                                                    &kp LEFT_SHIFT  &trans          &kp LG(SPACE)                                     &trans         &trans     &trans
             >;
-
-            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
