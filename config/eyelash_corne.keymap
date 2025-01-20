@@ -103,7 +103,7 @@
             bindings = <
 &kp LG(LA(ESCAPE))  &kp LS(LA(N1))  &kp LS(LA(N2))  &kp LS(LA(N3))  &trans          &kp LS(LG(T))                     &trans          &trans         &kp LG(Z)  &kp LS(LG(Z))  &trans         &trans  &trans
 &kp CAPSLOCK        &trans          &kp LS(LG(N2))  &kp LS(LG(N3))  &kp LS(LG(N4))  &kp LS(LG(N5))            &trans  &trans  &trans  &kp LA(MINUS)  &trans     &trans         &kp LA(EQUAL)  &trans  &trans
-&kp GLOBE           &sys_reset      &trans          &kp LG(C)       &kp LG(V)       &kp LS(LG(V))   &trans            &trans          &trans         &trans     &bootloader    &sys_reset     &trans  &trans
+&kp GLOBE           &trans          &trans          &kp LG(C)       &kp LG(V)       &kp LS(LG(V))   &trans            &trans          &trans         &trans     &trans         &trans         &trans  &trans
                                                     &kp LEFT_SHIFT  &trans          &kp LG(SPACE)                                     &trans         &trans     &trans
             >;
         };
