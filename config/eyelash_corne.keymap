@@ -91,7 +91,7 @@
             bindings = <
 &kp TAB         &kp F1        &kp F2        &kp F3                  &kp F4                   &kp F5                                                 &mmv MOVE_UP                     &kp F6              &kp F7    &kp F8        &kp F9                &kp F10        &kp BSPC
 &kp ESCAPE      &kp F11       &kp F12       &kp LG(LS(LEFT_BRACE))  &kp LG(LS(RIGHT_BRACE))  &trans                                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &HMR LS(LEFT) LEFT  &kp DOWN  &kp UP_ARROW  &HMR LS(RIGHT) RIGHT  &kp PAGE_UP    &kp CAPSLOCK
-&kp LEFT_SHIFT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2            &bt BT_SEL 3             &bt BT_SEL 4  &kp C_BRIGHTNESS_AUTO                    &mmv MOVE_DOWN                   &kp HOME            &kp END   &kp INSERT    &kp RG(RIGHT_ALT)     &kp PAGE_DOWN  &kp GLOBE
+&kp LEFT_SHIFT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2            &bt BT_SEL 3             &bt BT_SEL 4  &kp C_BRIGHTNESS_AUTO                    &mmv MOVE_DOWN                   &kp HOME            &kp END   &kp LG(Z)     &kp RG(RIGHT_ALT)     &kp PAGE_DOWN  &kp GLOBE
                                             &bt BT_CLR              &trans                   &kp LEFT_WIN                                                                            &kp RET             &trans    &trans
             >;
 
