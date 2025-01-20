@@ -43,12 +43,12 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
-  - NUMBER
+  - NUMSYMB
   - {t: '$$mdi:keyboard-space$$', h: LEFT WIN}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - SYMBOL
+  - NAVIGATION
   - RIGHT WIN
-  NUMBER:
+  NUMSYMB:
   - {t: '$$mdi:keyboard-tab$$', h: LEFT WIN}
   - '!'
   - '@'
@@ -97,7 +97,7 @@ layers:
   - RIGHT WIN
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
-  SYMBOL:
+  NAVIGATION:
   - $$mdi:keyboard-tab$$
   - F1
   - F2
@@ -114,24 +114,24 @@ layers:
   - $$mdi:keyboard-esc$$
   - F11
   - F12
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - Gui+Sft+{
+  - Gui+Sft+}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:arrow-left-bold$$', h: 'Sft+$$mdi:arrow-left-bold$$'}
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:arrow-right-bold$$', h: 'Sft+$$mdi:arrow-right-bold$$'}
   - PgUp
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-shift$$
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: 'Gui+,', s: Gui+<}
   - BRIGHTNESS AUTO
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - HOME
