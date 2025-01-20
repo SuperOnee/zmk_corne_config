@@ -136,7 +136,7 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - HOME
   - END
-  - Ins
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - Gui+$$mdi:apple-keyboard-option$$
   - PgDn
   - GLOBE
