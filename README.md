@@ -2,5 +2,4 @@
 
 ## Keymap
 
-![Keymap svg](./keymap-drawer/eyelash_corne.svg)
-
+![Keymap svg](./keymap-drawer/corne.svg)

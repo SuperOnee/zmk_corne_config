@@ -5,8 +5,8 @@
 *
 */
 
-#include "eyelash_corne.dtsi"
+#include "corne.dtsi"
 
-&default_transform {
-    col-offset = <7>;
+&left_encoder {
+    status = "okay";
 };

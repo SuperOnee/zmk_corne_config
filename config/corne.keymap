@@ -75,7 +75,7 @@
         };
 
         lower_layer {
-            display-name = "NUMSY";
+            display-name = "NUMSYMB";
             bindings = <
 &HMR LEFT_WIN TAB         &kp EXCL      &kp AT  &kp POUND     &kp DOLLAR    &kp PERCENT                                &mmv MOVE_UP                     &kp CARET      &kp AMPERSAND  &kp STAR        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
 &HMR LEFT_CONTROL ESCAPE  &kp N1        &kp N2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS      &kp EQUAL      &kp BACKSLASH   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
@@ -87,7 +87,7 @@
         };
 
         raise_layer {
-            display-name = "NAV";
+            display-name = "NAVIGATION";
             bindings = <
 &kp TAB         &kp F1        &kp F2        &kp F3                  &kp F4                   &kp F5                                                 &mmv MOVE_UP                     &kp F6              &kp F7    &kp F8        &kp F9                &kp F10        &kp BSPC
 &kp ESCAPE      &kp F11       &kp F12       &kp LG(LS(LEFT_BRACE))  &kp LG(LS(RIGHT_BRACE))  &trans                                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &HMR LS(LEFT) LEFT  &kp DOWN  &kp UP_ARROW  &HMR LS(RIGHT) RIGHT  &kp PAGE_UP    &kp CAPSLOCK
@@ -99,9 +99,9 @@
         };
 
         layer_3 {
-            display-name = "SHORT";
+            display-name = "SHORTCUTS";
             bindings = <
-&kp LG(LA(ESCAPE))  &kp LS(LA(N1))  &kp LS(LA(N2))  &kp LS(LA(N3))  &trans          &kp LS(LG(T))                     &trans          &trans         &kp LG(Z)  &kp LS(LG(Z))  &kp LG(LS(G))  &trans  &trans
+&kp LG(LA(ESCAPE))  &kp LS(LA(N1))  &kp LS(LA(N2))  &kp LS(LA(N3))  &trans          &kp LS(LG(T))                     &trans          &trans         &kp LG(Z)  &kp LS(LG(Z))  &trans         &trans  &trans
 &kp CAPSLOCK        &trans          &kp LS(LG(N2))  &kp LS(LG(N3))  &kp LS(LG(N4))  &kp LS(LG(N5))            &trans  &trans  &trans  &kp LA(MINUS)  &trans     &trans         &kp LA(EQUAL)  &trans  &trans
 &kp GLOBE           &trans          &trans          &kp LG(C)       &kp LG(V)       &kp LS(LG(V))   &trans            &trans          &trans         &trans     &trans         &trans         &trans  &trans
                                                     &kp LEFT_SHIFT  &trans          &kp LG(SPACE)                                     &trans         &trans     &trans

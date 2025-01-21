@@ -43,12 +43,12 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
-  - NUMSY
+  - NUMSYMB
   - {t: '$$mdi:keyboard-space$$', h: LEFT WIN}
-  - {t: '$$mdi:keyboard-return$$', h: SHORT}
-  - NAV
+  - {t: '$$mdi:keyboard-return$$', h: SHORTCUTS}
+  - NAVIGATION
   - RIGHT WIN
-  NUMSY:
+  NUMSYMB:
   - {t: '$$mdi:keyboard-tab$$', h: LEFT WIN}
   - '!'
   - '@'
@@ -97,7 +97,7 @@ layers:
   - RIGHT WIN
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
-  NAV:
+  NAVIGATION:
   - $$mdi:keyboard-tab$$
   - F1
   - F2
@@ -146,7 +146,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  SHORT:
+  SHORTCUTS:
   - Gui+Alt+$$mdi:keyboard-esc$$
   - {t: Sft+Alt+1, s: Sft+Alt+!}
   - {t: Sft+Alt+2, s: Sft+Alt+@}
@@ -157,7 +157,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - Sft+Gui+Z
-  - Gui+Sft+G
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
