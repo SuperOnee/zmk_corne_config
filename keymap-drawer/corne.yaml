@@ -121,10 +121,10 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:arrow-left-bold$$', h: 'Sft+$$mdi:arrow-left-bold$$'}
+  - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:arrow-right-bold$$', h: 'Sft+$$mdi:arrow-right-bold$$'}
+  - $$mdi:arrow-right-bold$$
   - PgUp
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-shift$$
@@ -149,9 +149,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   SHORTCUTS:
   - Gui+Alt+$$mdi:keyboard-esc$$
-  - {t: Sft+Alt+1, s: Sft+Alt+!}
-  - {t: Sft+Alt+2, s: Sft+Alt+@}
-  - {t: Sft+Alt+3, s: Sft+Alt+#}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Gui+T
   - {t: '$$mdi:transfer$$', type: trans}
@@ -170,10 +170,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Alt+Sft+-, s: Alt+Sft+_}
+  - Alt+Sft+H
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+Alt+L
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - GLOBE
