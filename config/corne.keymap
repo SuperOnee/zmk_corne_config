@@ -101,7 +101,7 @@
         layer_3 {
             display-name = "SHORTCUTS";
             bindings = <
-&kp LG(LA(ESCAPE))  &trans  &trans          &trans          &trans          &kp LS(LG(T))                     &trans          &trans         &kp LG(Z)      &kp LS(LG(Z))  &kp LA(LS(G))  &trans  &trans
+&kp LG(LA(ESCAPE))  &trans  &trans          &trans          &trans          &kp LS(LG(T))                     &trans          &trans         &kp LG(Z)      &kp LS(LG(Z))  &kp LS(LG(G))  &trans  &trans
 &kp CAPSLOCK        &trans  &kp LS(LG(N2))  &kp LS(LG(N3))  &kp LS(LG(N4))  &kp LS(LG(N5))            &trans  &trans  &trans  &kp LA(LS(H))  &trans         &trans         &kp LS(LA(L))  &trans  &trans
 &kp GLOBE           &trans  &trans          &kp LG(C)       &kp LG(V)       &kp LS(LG(V))   &trans            &trans          &kp LS(LA(B))  &kp LA(EQUAL)  &trans         &trans         &trans  &trans
                                             &kp LEFT_SHIFT  &trans          &kp LG(SPACE)                                     &trans         &trans         &trans
